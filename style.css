@@ -1,0 +1,12 @@
+body{
+    background-color: beige;
+    color: #313131;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+}
