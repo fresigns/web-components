@@ -29,7 +29,7 @@ render(games){
 
     for (let i = 0; i < games.length; i++) {
         
-        const game = games[i];
+        const game = games[i].data;
     
         const cardComponent = document.createElement('game-card');
 
